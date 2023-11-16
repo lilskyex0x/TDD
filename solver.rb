@@ -1,7 +1,7 @@
 class Solver
  
   def self.reverse(word)
-    # word.reverse
+    word.reverse
   end
 end
 
