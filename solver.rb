@@ -1,4 +1,7 @@
 class Solver
+  def self.factorial(number)
+  end
+  
   def self.reverse(word)
     word.reverse
   end
