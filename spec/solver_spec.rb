@@ -14,7 +14,7 @@ RSpec.describe Solver do
       expect { Solver.factorial(-1) }.to raise_error(ArgumentError)
     end
   end
-  
+
   describe 'reverse word' do
     it 'reverses a word' do
       expect(Solver.reverse('hello')).to eq('olleh')
@@ -37,7 +37,5 @@ RSpec.describe Solver do
     it 'returns number as a string for any other case' do
       expect(Solver.fizzbuzz(7)).to eq('7')
     end
-
-
   end
 end
